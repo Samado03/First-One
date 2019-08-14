@@ -1,0 +1,191 @@
+.navbar{ 
+    background-color : rgb(121, 95, 10); 
+    border : darkslategray ;
+    display: flex;
+    
+    }
+    .txt1{
+        background-color : rgb(121, 95, 10); 
+        border : darkslategray ;
+        margin-left: 50px;
+    margin-right: 100px;
+    text-decoration: none;
+    }
+    #img {
+        height: 100px ;
+    width : 100px;
+    
+    }
+    .bb{
+        margin-top: 50px ;
+    margin-left: 200px;
+    }
+    .bb:hover , .par1:hover , .par2:hover , .par3:hover, .par4:hover {
+         transform: scale(1.2);
+         transition : 1s;
+        }
+    #bg {
+        height: 100%;
+        background-size: cover;
+        
+    }
+    .par1 {
+    background-color : rgb(235, 235, 119) ; 
+    height : max-content;
+    width :500px;
+    border-color : black;
+    border : 5px ;
+    border-style: solid;
+    margin-left: 50px;
+    margin-top : 50px ;
+    }
+    .about {
+        display : flex;
+    }
+    .par2{
+    background-color : yellow ; 
+    height : max-content;
+    width :250px;
+    border-color : black;
+    border : 5px ;
+    border-style: solid;
+    margin-left: 50px;
+    margin-top : 50px ;
+    }
+    
+    .par3{
+        background-color : rgb(190, 190, 17); 
+        height : max-content;
+        width :250px;
+        border-color : black;
+        border : 5px ;
+        border-style: solid;
+        margin-left: 230px;
+        margin-top : 50px ;
+    }
+    .par4{
+        background-color : rgb(126, 126, 19) ; 
+        height : max-content;
+        width :250px;
+        border-color : black;
+        border : 5px ;
+        border-style: solid;
+        margin-left: 230px;
+        margin-top : 50px ;
+    }
+    .pls{
+        display: flex;
+       } 
+    .field{
+        height: max-content;
+    background-color:yellowgreen;
+    }
+    .txt1:hover{
+        text-decoration: underline;
+    }
+    .loginbox{
+        width: 420px;
+        height: 550px;
+        background: darkkhaki;
+        color:#fff;
+        top: 50%;
+        left: 50%;
+        margin-right:500px;
+        margin-left:420px;
+    }
+    .Avatar{
+        width:100px;
+        height: 100px;
+        border-radius: 50%;
+       margin-left: 100px;
+       margin-right: 500px;
+    }
+    .h1{
+        margin: 0;
+        padding: 0 0 20px ;
+        text-align: center;
+        font-size: 22px ;
+    }
+    .loginbox p {
+        margin: 0;
+        padding: 0;
+        font-weight: bold;
+    }
+    .loginbox input {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .loginbox input[type="text"] , input [type="email"] , input [type="Number"] , input [type="link"] , input [type="message"] , input [type="submit" ]
+    {
+        border : none;
+        border-bottom: 1px solid #fff;
+        background: transparent ;
+        outline: none ;
+        height: 40px;
+        color: #fff;
+        font-size: 16px;
+    }
+    .loginbox input[type=submit]
+    {
+        border: none;
+        outline: none;
+        height: 40px;
+        background: #d1cec6;
+        color: #fff;
+        font-size: 18px;
+        border-radius: 20px;
+    }
+    .loginbox input [type="submit"]:hover
+    {
+        cursor: pointer;
+        background: #ffc107;
+        color:#000;
+    }
+    .item1 { 
+        grid-area: header;
+        background-image: url("https://media.istockphoto.com/photos/beige-background-old-grunge-paper-retro-stains-scratches-picture-id1013342910?k=6&m=1013342910&s=612x612&w=0&h=7_f99DRgKGrTeP4mWMr8f2wufK8NraBTSIEJES_xxvs=");
+        background-size: cover;
+     }
+    .item2 {
+         grid-area: menu; 
+         background-image: url("data:image/jpeg;base64,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");
+         background-size: cover;}
+    .item3 {
+         grid-area: main;
+         background-image: url("http://www.museumtextures.com/wp-content/uploads/marbre-clair-jaune-chaud-1500-300-museumtextures.com-1310131931.jpg");
+         background-size: cover;
+         }
+    .item4 { 
+        grid-area: right;
+        background-image: url("https://cdn.pixabay.com/photo/2014/01/07/18/34/fog-240075_960_720.jpg");
+        background-size: cover; }
+    .item5 { 
+        grid-area: footer;
+        background-image: url("/6777136-beige-nature-wallpaper.jpg");
+        background-size: cover; }
+    
+    .grid-container {
+      display: grid;
+      grid-template-areas:
+        'header header header header header header'
+        'menu main main main right right'
+        'menu footer footer footer footer footer';
+      grid-gap: 10px;
+      padding: 10px;
+      height: 250px;
+    
+    }
+    .icon:hover{
+        transform: rotateY(360deg);
+        transition: 1s;
+    }
+    .icon{
+        height: 50px;
+        width: 50px;
+        padding-left:25px;
+    }
+    .button{
+       margin-left: 60px;
+       height: 50px;
+       width:150px;
+    }
